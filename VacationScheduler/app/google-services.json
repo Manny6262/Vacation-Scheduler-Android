@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "470227501410",
+    "project_id": "vacation-scheduler-d46f7",
+    "storage_bucket": "vacation-scheduler-d46f7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:470227501410:android:65db4c229673f038132c3b",
+        "android_client_info": {
+          "package_name": "com.example.vacationscheduler"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6jGIi7w3od8AjrYKk3fVT6xUNi7PePVs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

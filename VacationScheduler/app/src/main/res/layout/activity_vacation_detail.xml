@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vacation Details"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingBottom="20dp" />
+
+        <EditText
+            android:id="@+id/vacationTitleEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Vacation Title"
+            android:inputType="textCapWords" />
+
+        <EditText
+            android:id="@+id/hotelEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Hotel or Place Staying"
+            android:inputType="textCapWords" />
+
+        <EditText
+            android:id="@+id/startDateEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Start Date (MM/DD/YYYY)"
+            android:inputType="none"
+            android:focusable="false"
+            android:clickable="true" />
+
+        <EditText
+            android:id="@+id/endDateEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="End Date (MM/DD/YYYY)"
+            android:inputType="none"
+            android:focusable="false"
+            android:clickable="true" />
+
+        <Button
+            android:id="@+id/saveVacationButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Vacation"
+            android:layout_marginTop="20dp" />
+
+        <Button
+            android:id="@+id/setVacationAlertsButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Set Vacation Alerts"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/shareVacationButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Share Vacation"
+            android:layout_marginTop="8dp" />
+        <Button
+            android:id="@+id/generateReportButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Generate Itinerary Report"
+            android:layout_marginTop="8dp" />
+        <Button
+            android:id="@+id/viewExcursionsButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Excursions"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/deleteVacationButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete Vacation"
+            android:layout_marginTop="8dp" />
+
+    </LinearLayout>
+
+</ScrollView>
