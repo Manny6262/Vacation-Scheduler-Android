@@ -9,7 +9,7 @@ Vacation Scheduler is an Android app that helps users organize vacations and exc
 - Java
 - Android Studio
 - Room and SQlite for database storage
-- GitLab for version control
+- Github for version control
 - JUnit for testing
 
 ## How to Run the App
@@ -25,7 +25,7 @@ Vacation Scheduler is an Android app that helps users organize vacations and exc
 2. Make the needed changes to the Java files or XML layouts under 'app/src/main'.
 3. Build and run the app to check the changes.
 4. Run the unit tests to verify the validation features.
-5. Commit and push the changes to the 'Working' branch in GitLab.
+5. Commit and push the changes to the 'Main' branch in Github.
 
 ## Testing
 
